@@ -1,0 +1,19 @@
+.
+├── data/
+│   ├── roi_coordinates.json
+│   ├── donor_metadata.csv
+│   └── raw_expression_profiles/
+├── scripts/
+│   ├── 1_roi_definition.py
+│   ├── 2_expression_extraction.py
+│   ├── 3_zscore_normalization.py
+│   └── 4_enrichment_analysis.py
+├── results/
+│   ├── gene_expression_matrix.csv
+│   ├── heatmap_top_genes.png
+│   └── enrichment_bubble_plot.png
+├── figures/
+│   ├── pipeline_diagram.pdf
+│   └── figure_legends.txt
+├── LICENSE
+└── README.md

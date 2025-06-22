@@ -1,0 +1,5 @@
+gene_expression_matrix.csv: z-score-normalized expression values across ROIs.
+
+heatmap_top_genes.png: Top 50 differentiating genes visualized by region.
+
+enrichment_bubble_plot.png: Functional pathway enrichment visualization via GO terms.
