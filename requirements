@@ -1,0 +1,6 @@
+abagen==0.1.2
+nilearn==0.10.2
+pandas==2.2.2
+matplotlib==3.8.4
+seaborn==0.12.2
+gprofiler-official==1.0.0
