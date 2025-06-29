@@ -1,0 +1,43 @@
+# Filename: DLPFC_vs_Caudate_Zscore.py
+
+import pandas as pd
+import numpy as np
+from scipy.stats import zscore
+import matplotlib.pyplot as plt
+
+# Step 1: Load AHBA expression matrix (preprocessed)
+# Replace with actual file path or example data
+expression_df = pd.read_csv('AHBA_expression_matrix.csv', index_col=0)
+
+# Step 2: Define ROI masks for DLPFC and caudate nucleus
+# These are lists of sample IDs corresponding to DLPFC and caudate
+dlpfc_samples = ['1001', '1002', '1003']  # placeholder IDs
+caudate_samples = ['2001', '2002', '2003']  # placeholder IDs
+
+# Step 3: Subset data by ROI
+dlpfc_df = expression_df[dlpfc_samples]
+caudate_df = expression_df[caudate_samples]
+
+# Step 4: Compute mean expression per gene across samples
+dlpfc_mean = dlpfc_df.mean(axis=1)
+caudate_mean = caudate_df.mean(axis=1)
+
+# Step 5: Calculate z-score difference per gene (DLPFC vs. caudate)
+combined_df = pd.DataFrame({
+    'DLPFC': dlpfc_mean,
+    'Caudate': caudate_mean
+})
+combined_df['Z_diff'] = zscore(combined_df['DLPFC'] - combined_df['Caudate'])
+
+# Step 6: Select top genes by absolute Z_diff
+top_genes = combined_df.reindex(combined_df['Z_diff'].abs().sort_values(ascending=False).index).head(50)
+
+# Step 7: Save top gene list
+top_genes.to_csv('Top50_Zdiff_genes.csv')
+
+# Optional: Plot heatmap
+import seaborn as sns
+sns.heatmap(top_genes[['DLPFC', 'Caudate']], cmap='vlag')
+plt.title('Top 50 Gene Expression (DLPFC vs. Caudate)')
+plt.tight_layout()
+plt.savefig('top50_heatmap.png')
