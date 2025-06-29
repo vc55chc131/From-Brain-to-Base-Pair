@@ -84,3 +84,13 @@ This project is part of a larger research program integrating **neuroimaging**, 
 
 - Interpreter Genomics I (current manuscript)
 - Interpreter Genomics II (in preparation; DLPFC-focused meta-synthesis of gene variants)
+
+- ### Input Example
+The script expects a file named `AHBA_expression_matrix.csv` with the following structure:
+
+| GeneID | 1001 | 1002 | 2001 | 2002 |
+|--------|------|------|------|------|
+| ABC1   | 1.23 | 2.45 | 0.98 | 1.76 |
+
+Sample IDs prefixed with "1xxx" are DLPFC, "2xxx" are caudate samples.
+
