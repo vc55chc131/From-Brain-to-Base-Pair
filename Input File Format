@@ -1,0 +1,21 @@
+## 🧬 Input File Format
+
+The script expects a gene expression matrix named `AHBA_expression_matrix.csv` in the following format:
+
+| GeneID | 1001  | 1002  | 2001  | 2002  |
+|--------|-------|-------|-------|-------|
+| ABC1   | 1.23  | 2.45  | 0.98  | 1.76  |
+| DEF2   | 5.22  | 4.87  | 3.45  | 2.89  |
+| GHI3   | 0.56  | 0.78  | 1.02  | 1.14  |
+
+- Each **row** represents one gene, indexed by its official **GeneID**.
+- Each **column** (after the first) represents a specific brain sample.
+
+> 🔹 **Sample ID Naming Convention:**
+>
+> - Sample IDs prefixed with **1xxx** are derived from the **DLPFC** (dorsolateral prefrontal cortex).  
+> - Sample IDs prefixed with **2xxx** are derived from the **caudate nucleus**.
+
+> ⚠️ The script assumes that your dataset already contains **log2-normalized expression values** and that sample labels are pre-grouped according to brain region (DLPFC vs. caudate).
+
+> 📂 This `.csv` file should be placed at the root of your cloned repository or inside `Data Sources/` depending on your local setup. You can adjust the path in `source_code/DLPFC_vs_Caudate_Zscore.py`.
