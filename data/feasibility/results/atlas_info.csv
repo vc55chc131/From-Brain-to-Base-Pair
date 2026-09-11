@@ -1,0 +1,4 @@
+id,roi,hemisphere,structure,x,y,z,radius_mm,provenance_status,source,n_atlas_voxels
+1,DLPFC,L,cortex,-45,36,28,2,unverified,Coordinates stated in the supplied manuscript; match to primary fMRI source not established,2
+2,Caudate,L,subcortex/brainstem,-12,15,9,2,unverified,Coordinates stated in the supplied manuscript; match to primary fMRI source not established,4
+3,Caudate,R,subcortex/brainstem,12,15,9,2,unverified,Coordinates stated in the supplied manuscript; match to primary fMRI source not established,4

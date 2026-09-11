@@ -1,0 +1,13 @@
+coordinate_set,donor_id,donor_api_id,n_samples,n_after_hemisphere_mismatch_filter
+original_mni,H0351.2001,9861,946,896
+corrected_mni,H0351.2001,9861,946,904
+original_mni,H0351.2002,10021,893,842
+corrected_mni,H0351.2002,10021,893,845
+original_mni,H0351.1009,12876,363,353
+corrected_mni,H0351.1009,12876,363,353
+original_mni,H0351.1012,14380,529,518
+corrected_mni,H0351.1012,14380,529,513
+original_mni,H0351.1015,15496,470,436
+corrected_mni,H0351.1015,15496,470,437
+original_mni,H0351.1016,15697,501,415
+corrected_mni,H0351.1016,15697,501,414

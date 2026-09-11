@@ -1,0 +1,23 @@
+{
+  "donor_api_id": "12876",
+  "source_url": "https://human.brain-map.org/api/v2/well_known_file_download/178238359",
+  "archive_bytes": 166233851,
+  "transferred_bytes_metadata_only": 44316,
+  "retrieved_utc": "2026-09-11T08:04:52.984292+00:00",
+  "files": [
+    {
+      "filename": "SampleAnnot.csv",
+      "zip_member": "SampleAnnot.csv",
+      "uncompressed_bytes": 36100,
+      "sha256": "98e0399984eb547af2168ed1165ee0e74a419d36ba87728412095be899a0d09c",
+      "zip_crc32": 134258001
+    },
+    {
+      "filename": "Ontology.csv",
+      "zip_member": "Ontology.csv",
+      "uncompressed_bytes": 188964,
+      "sha256": "eb6db340510d3b511c0c674635d5d69aa15301515dc8fae1b8ff8c44b7dbf4ac",
+      "zip_crc32": 441796442
+    }
+  ]
+}

@@ -1,0 +1,156 @@
+{
+  "corrected_coordinates_source": "https://github.com/rmarkello/abagen/blob/dc4a007e4e902e51f97251390c8d1bbf7e58c6d3/abagen/data/corrected_mni_coordinates.csv.gz",
+  "coordinate_origin": "alleninf corrected MNI coordinates; see license notice",
+  "well_donor_mapping_source": "https://api.brain-map.org/api/v2/data/query.json?criteria=model::Well,rma::criteria,[donor_id$in9861,10021,12876,15496,14380,15697],rma::options[num_rows$eq'all']",
+  "retrieved_date_utc": "2026-09-11",
+  "input_sha256": {
+    "corrected_mni_coordinates.csv.gz": "14e785f988cff4f84260f69cbfead02067c67a7f25fd7724bab0b06d03ff6e43",
+    "well_donor_mapping.json": "66f8211d06c4fcb1165241a2c5c8ee60cd47b0e6bf21bf3de245cebe0d2704f2"
+  },
+  "no_expression_data": "Only spatial coordinates and anatomical/donor metadata are used. No gene expression matrix was downloaded or analysed.",
+  "metadata_archives": [
+    {
+      "donor_api_id": "10021",
+      "source_url": "https://human.brain-map.org/api/v2/well_known_file_download/178238373",
+      "archive_bytes": 400957002,
+      "transferred_bytes_metadata_only": 58037,
+      "retrieved_utc": "2026-09-11T08:04:53.291426+00:00",
+      "files": [
+        {
+          "filename": "SampleAnnot.csv",
+          "zip_member": "SampleAnnot.csv",
+          "uncompressed_bytes": 84877,
+          "sha256": "db3b19bde8c3bb2ed19de952b71ab267b87aa3151e316600b7b677d2306400d3",
+          "zip_crc32": 2516972457
+        },
+        {
+          "filename": "Ontology.csv",
+          "zip_member": "Ontology.csv",
+          "uncompressed_bytes": 188964,
+          "sha256": "eb6db340510d3b511c0c674635d5d69aa15301515dc8fae1b8ff8c44b7dbf4ac",
+          "zip_crc32": 441796442
+        }
+      ]
+    },
+    {
+      "donor_api_id": "12876",
+      "source_url": "https://human.brain-map.org/api/v2/well_known_file_download/178238359",
+      "archive_bytes": 166233851,
+      "transferred_bytes_metadata_only": 44316,
+      "retrieved_utc": "2026-09-11T08:04:52.984292+00:00",
+      "files": [
+        {
+          "filename": "SampleAnnot.csv",
+          "zip_member": "SampleAnnot.csv",
+          "uncompressed_bytes": 36100,
+          "sha256": "98e0399984eb547af2168ed1165ee0e74a419d36ba87728412095be899a0d09c",
+          "zip_crc32": 134258001
+        },
+        {
+          "filename": "Ontology.csv",
+          "zip_member": "Ontology.csv",
+          "uncompressed_bytes": 188964,
+          "sha256": "eb6db340510d3b511c0c674635d5d69aa15301515dc8fae1b8ff8c44b7dbf4ac",
+          "zip_crc32": 441796442
+        }
+      ]
+    },
+    {
+      "donor_api_id": "14380",
+      "source_url": "https://human.brain-map.org/api/v2/well_known_file_download/178238316",
+      "archive_bytes": 241359585,
+      "transferred_bytes_metadata_only": 49030,
+      "retrieved_utc": "2026-09-11T08:06:50.750216+00:00",
+      "files": [
+        {
+          "filename": "SampleAnnot.csv",
+          "zip_member": "SampleAnnot.csv",
+          "uncompressed_bytes": 55090,
+          "sha256": "7f81a1ad74e4118f67198b0a19689c12fde0edf2258928bacee833bd736ca616",
+          "zip_crc32": 4071942801
+        },
+        {
+          "filename": "Ontology.csv",
+          "zip_member": "Ontology.csv",
+          "uncompressed_bytes": 188964,
+          "sha256": "eb6db340510d3b511c0c674635d5d69aa15301515dc8fae1b8ff8c44b7dbf4ac",
+          "zip_crc32": 441796442
+        }
+      ]
+    },
+    {
+      "donor_api_id": "15496",
+      "source_url": "https://human.brain-map.org/api/v2/well_known_file_download/178238266",
+      "archive_bytes": 216077630,
+      "transferred_bytes_metadata_only": 47694,
+      "retrieved_utc": "2026-09-11T08:06:50.201854+00:00",
+      "files": [
+        {
+          "filename": "SampleAnnot.csv",
+          "zip_member": "SampleAnnot.csv",
+          "uncompressed_bytes": 48502,
+          "sha256": "ae36db004b5e46accadb5bdbe9fc836ff3951594bf9d491b2a4d2d7dd4e46d02",
+          "zip_crc32": 1653058021
+        },
+        {
+          "filename": "Ontology.csv",
+          "zip_member": "Ontology.csv",
+          "uncompressed_bytes": 188964,
+          "sha256": "eb6db340510d3b511c0c674635d5d69aa15301515dc8fae1b8ff8c44b7dbf4ac",
+          "zip_crc32": 441796442
+        }
+      ]
+    },
+    {
+      "donor_api_id": "15697",
+      "source_url": "https://human.brain-map.org/api/v2/well_known_file_download/178236545",
+      "archive_bytes": 230640408,
+      "transferred_bytes_metadata_only": 48206,
+      "retrieved_utc": "2026-09-11T08:06:50.709670+00:00",
+      "files": [
+        {
+          "filename": "SampleAnnot.csv",
+          "zip_member": "SampleAnnot.csv",
+          "uncompressed_bytes": 52131,
+          "sha256": "85f94fe23901bb3f642cf4eef811d0e171a039d38d0eda722e2abb843367bdf5",
+          "zip_crc32": 924011258
+        },
+        {
+          "filename": "Ontology.csv",
+          "zip_member": "Ontology.csv",
+          "uncompressed_bytes": 188964,
+          "sha256": "eb6db340510d3b511c0c674635d5d69aa15301515dc8fae1b8ff8c44b7dbf4ac",
+          "zip_crc32": 441796442
+        }
+      ]
+    },
+    {
+      "donor_api_id": "9861",
+      "source_url": "https://human.brain-map.org/api/v2/well_known_file_download/178238387",
+      "archive_bytes": 425988059,
+      "transferred_bytes_metadata_only": 59275,
+      "retrieved_utc": "2026-09-11T08:04:53.920837+00:00",
+      "files": [
+        {
+          "filename": "SampleAnnot.csv",
+          "zip_member": "SampleAnnot.csv",
+          "uncompressed_bytes": 89929,
+          "sha256": "d53f6bedd549ebcc3de4b1c35fac1d530170ad0e6ed96e4511f5623a928ef063",
+          "zip_crc32": 4004973261
+        },
+        {
+          "filename": "Ontology.csv",
+          "zip_member": "Ontology.csv",
+          "uncompressed_bytes": 188964,
+          "sha256": "eb6db340510d3b511c0c674635d5d69aa15301515dc8fae1b8ff8c44b7dbf4ac",
+          "zip_crc32": 441796442
+        }
+      ]
+    }
+  ],
+  "total_metadata_transfer_bytes": 306558,
+  "ontology_note": "Ontology.csv is byte-identical in all six donor archives; a single copy is retained.",
+  "source_terms": "Allen source metadata retain their source attribution and terms; the project code license does not replace source terms. Corrected coordinates carry the separate BSD-3 notice included here.",
+  "upstream_corrected_coordinates_checksum_verified": true,
+  "upstream_corrected_coordinates_bytes": 109586
+}

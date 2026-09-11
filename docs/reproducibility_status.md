@@ -2,6 +2,19 @@
 
 Updated 11 September 2026.
 
+## Completed spatial feasibility study
+
+The executed audit in `source_code/audit_roi_coverage.py` is supported by the inputs, output tables, run metadata, source terms, and provenance under `data/feasibility/`. Independent coordinate and abagen matching checks agreed:
+
+- 3,702 finite corrected sampling coordinates with unique well identifiers.
+- Exact 2 mm sphere counts: zero at all three targets.
+- Minimum center distances: DLPFC 9.405998 mm; left caudate 2.788991 mm; right caudate 4.536933 mm.
+- Zero additional abagen tolerance: no assigned samples.
+- Additional tolerance of 2 mm: one left caudate candidate (well 11333, H0351.1009); no DLPFC candidate and no right caudate candidate.
+- Zero complete DLPFC–caudate donor pairs under both settings.
+
+The completed result is a spatial feasibility finding. It is not a gene-expression null result or a reproduction of the old statistical summaries. Discrete atlas assignment and continuous seed distance have different definitions; abagen grid mapping must not be described as simply adding the tolerance to the sphere radius. No full microarray comparison or enrichment analysis was executed for these targets.
+
 ## What was added and checked
 
 - A new executable processed-data analysis pipeline with donor-first regional aggregation, paired inference, Benjamini–Hochberg adjustment, descriptive rankings, optional heatmaps, optional g:Profiler calls, and input/run provenance.
@@ -23,10 +36,12 @@ The following are **not** established by this update:
 - Recovery of original source tissue mappings, donor ROI coverage, historical scripts or executed logs.
 - Validation of the original heatmap, duplicate enrichment images, or claimed cross-pipeline/PCA/semantic analyses.
 
-The new paired pipeline is a prospective reanalysis implementation. It does not establish which method produced the original paper's reported values. It deliberately does not tune settings to reproduce those values. Read `docs/manuscript_reconciliation.md` before treating the manuscript as ready for submission.
+The new paired pipeline is a prospective reanalysis implementation. It does not establish which method produced the original paper's reported values. It deliberately does not tune settings to reproduce those values. The disposition of the original reporting issues is recorded in `docs/manuscript_reconciliation.md`.
 
-## Next scientifically necessary step
+## Scope of a future expression study
 
-Resolve the coordinate provenance and either supply the original processed dataset with its records or execute a clearly identified new extraction. Preserve the full outputs and all failed/insufficient-coverage diagnostics. Use the paired files exported by extraction for the companion analysis, and report any excluded donors. A completed, reviewable empirical run must precede any claim that the reported research findings are reproducible.
+An empirical expression study requires a new, independently justified anatomical design with adequate observed coverage, or a recoverable original dataset with its authentic mapping and processing records. Do not enlarge regions merely to recover a desired significance result. Any changed coordinates or spatial rules define a new analysis and need explicit reporting. Preserve all coverage diagnostics, excluded donors, input lists, and executed results.
+
+The revised manuscript is a methodology/feasibility paper based on the completed spatial audit. The earlier expression and enrichment claims have been removed rather than relabeled as reproduced findings.
 
 Public GitHub availability, a software test suite, and this status document do not by themselves establish full FAIR compliance.

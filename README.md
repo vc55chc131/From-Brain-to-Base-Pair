@@ -4,21 +4,25 @@ Reproducibility materials for an exploratory comparison of dorsolateral prefront
 
 ## Current status
 
-This repository now provides a **new, documented analysis implementation** and supporting data specifications. It does **not** establish reproduction of the numerical results in the original manuscript. The original complete processed expression matrix, donor-to-tissue mapping, executed analysis logs, and full enrichment exports were not available when this implementation was added on 11 September 2026.
+A **completed spatial feasibility audit** now precedes the conditional expression workflow. Across 3,702 corrected AHBA sampling coordinates, exact 2 mm spheres at the author-specified DLPFC and bilateral caudate centers contained no sampling centers. Matching the corresponding voxel atlas with no additional tolerance assigned no samples. A diagnostic 2 mm additional tolerance assigned only one left caudate candidate and no DLPFC candidates. Both configurations therefore yielded **zero complete regional donor pairs**. These settings do not support expression inference.
 
-The author-reported ROI coordinates are also awaiting source verification. Their attribution to Hervais-Adelman et al. 2015 is not supported by the reported peak tables inspected in that paper. Do not silently replace the coordinates and describe the resulting analysis as a reproduction.
+This result applies to the specified coordinate resource, centers, atlas grid, and tolerances. It does not mean that the anatomical DLPFC or caudate generally lack AHBA samples, and it does not test molecular equivalence between regions. Tissue centers do not represent the full physical extent of dissected samples.
 
-- `source_code/DLPFC_vs_Caudate_Zscore.py`: analysis of a real processed expression matrix with required donor/ROI metadata.
-- `source_code/extract_ahba.py`: optional preparation from the public Allen Human Brain Atlas, subject to its documented data-download requirements.
-- `requirements.txt`: analysis dependencies.
-- `requirements-ahba.txt`: optional atlas-extraction dependencies.
-- `docs/data_schema.md`: accepted input formats and distinctions between tissue samples and regional summaries.
-- `docs/extraction.md`: extraction parameters, coordinate provenance, and execution instructions.
-- `docs/reproducibility_status.md`: what has and has not been verified.
-- `docs/manuscript_reconciliation.md`: discrepancies that must be resolved before manuscript submission.
-- `data/author_reported/`: transcriptions of supplied manuscript tables, explicitly unverified as computational results.
-- `data/reference/`: source metadata from the Allen Institute, with provenance.
-- `tests/`: computational checks using clearly identified synthetic fixtures, not research data.
+- `source_code/audit_roi_coverage.py`: executed spatial coverage assessment.
+- `data/feasibility/`: source inputs, provenance, exact-sphere and voxel-matching outputs.
+- `source_code/DLPFC_vs_Caudate_Zscore.py`: conditional paired analysis of a real processed expression matrix and donor/ROI metadata.
+- `source_code/extract_ahba.py`: conditional extraction from public AHBA data; it has not generated expression results for the audited targets.
+- `requirements.txt` and `requirements-ahba.txt`: analysis and optional AHBA dependencies.
+- `docs/data_schema.md` and `docs/extraction.md`: accepted inputs, parameters, and execution instructions.
+- `docs/reproducibility_status.md`: completed checks and limits.
+- `docs/manuscript_reconciliation.md`: disposition of the earlier manuscript discrepancies.
+- `data/reference/`: official donor metadata with provenance.
+- `data/author_reported/`: historical table transcriptions; **not validated results of the coverage study**.
+- `tests/`: computational checks with synthetic fixtures, not research observations.
+
+The original full processed expression matrix and executed enrichment outputs remain unavailable. The original coordinates are evaluated as exploratory author-specified inputs, not verified peaks from Hervais-Adelman et al. (2015). The clean manuscript now reports the spatial feasibility study and does not retain the unsupported gene-level or enrichment conclusions.
+
+See `data/feasibility/README.md` for the exact audit command, input definitions, and source terms.
 
 ## Install and run
 
@@ -60,7 +64,7 @@ AHBA donors were not selected as interpreters. A regional atlas contrast does no
 
 ## Data and code availability
 
-Analysis code, documentation, source donor metadata, and clearly labeled transcriptions of author-reported tables are available in this repository. Original transcriptomic data are available through the [Allen Human Brain Atlas](https://human.brain-map.org/). The complete original processed expression dataset and original executed analysis outputs are not currently included. No claim of complete reproduction or full FAIR compliance is made.
+Analysis code, documentation, source donor metadata, coordinate inputs, and executed spatial feasibility outputs are available in this repository. Historical author-reported table transcriptions are labeled separately. Original transcriptomic data are available through the [Allen Human Brain Atlas](https://human.brain-map.org/). The complete original processed expression dataset and original executed analysis outputs are not currently included. No claim of complete reproduction or full FAIR compliance is made.
 
 ## Sources and license
 

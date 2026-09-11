@@ -1,0 +1,49 @@
+{
+  "created_utc": "2026-09-11T08:06:47.196477+00:00",
+  "analysis": "spatial_coverage_only_no_gene_expression",
+  "n_corrected_coordinate_wells": 3702,
+  "n_donors": 6,
+  "coordinate_source": "Pinned abagen corrected MNI table derived from alleninf; original MNI coordinates from Allen SampleAnnot.csv",
+  "donor_mapping": "All corrected-coordinate well IDs uniquely joined to saved Allen Well API donor_id records and exact per-donor SampleAnnot.csv well-ID sets",
+  "seed_provenance": "Proposed manuscript coordinates; no claim that these coordinates reproduce a published fMRI contrast",
+  "atlas": "2 mm nilearn MNI152 template; labelled voxels have centres within the proposed 2 mm coordinate spheres",
+  "matching_note": "Exact continuous Euclidean spheres and abagen voxel-atlas matching are distinct procedures. abagen first projects coordinates onto its voxel grid before incremental tolerance matching. Tolerance 0 is not a continuous 2 mm distance test.",
+  "filtering_note": "Unconstrained counts are spatial upper bounds. Constrained counts additionally remove hemisphere-coordinate mismatches and constrain assignments by hemisphere and broad structural class using Allen ontology metadata.",
+  "scope_limit": "This audit cannot test gene expression differences, enrichment, or interpreter-specific biology. It evaluates only these coordinates, radii, coordinate sets and matching rules.",
+  "software": {
+    "python": "3.12.14",
+    "abagen_module_version": "0+unknown",
+    "abagen_pinned_commit": "dc4a007e4e902e51f97251390c8d1bbf7e58c6d3",
+    "nilearn": "0.10.4",
+    "nibabel": "5.3.2",
+    "numpy": "1.26.4",
+    "pandas": "2.2.3",
+    "scipy": "1.12.0"
+  },
+  "source_sha256": {
+    "audit_roi_coverage.py": "6682fe680f93f28957de25bfde8ff1cf0f1d52e2267bc79405aa720159492445",
+    "abagen_matching.py": "ef412f13bcb07fcd3a4310a61ae27aa8c0f0ba889897cbacafc243f3b80520d7",
+    "abagen_samples.py": "6fd7471b0fa32b10d91b1da94f9a9649eed8550108dd11c6967497206dc235d4"
+  },
+  "input_sha256": {
+    "corrected_mni_coordinates.csv.gz": "14e785f988cff4f84260f69cbfead02067c67a7f25fd7724bab0b06d03ff6e43",
+    "well_donor_mapping.json": "66f8211d06c4fcb1165241a2c5c8ee60cd47b0e6bf21bf3de245cebe0d2704f2",
+    "analysis/repo_updates/config/roi_seeds_unverified.csv": "2b5161e64db135ea6845e57ba3bde2ef288352ac24666b5a121beda3d9a1573e",
+    "donor_9861/SampleAnnot.csv": "d53f6bedd549ebcc3de4b1c35fac1d530170ad0e6ed96e4511f5623a928ef063",
+    "Ontology.csv": "eb6db340510d3b511c0c674635d5d69aa15301515dc8fae1b8ff8c44b7dbf4ac",
+    "donor_10021/SampleAnnot.csv": "db3b19bde8c3bb2ed19de952b71ab267b87aa3151e316600b7b677d2306400d3",
+    "donor_12876/SampleAnnot.csv": "98e0399984eb547af2168ed1165ee0e74a419d36ba87728412095be899a0d09c",
+    "donor_14380/SampleAnnot.csv": "7f81a1ad74e4118f67198b0a19689c12fde0edf2258928bacee833bd736ca616",
+    "donor_15496/SampleAnnot.csv": "ae36db004b5e46accadb5bdbe9fc836ff3951594bf9d491b2a4d2d7dd4e46d02",
+    "donor_15697/SampleAnnot.csv": "85f94fe23901bb3f642cf4eef811d0e171a039d38d0eda722e2abb843367bdf5"
+  },
+  "output_sha256": {
+    "coverage_summary.csv": "353854f989c79b45c0db5192ad646f65ddaac4a1c8940bbc47df8b913e5a884e",
+    "seed_atlas.nii.gz": "46ff6c1bb4601bf9379feaf35431521e4bd107330f14929b3fffc1bda82c1f26",
+    "matched_samples.csv": "a71588a934c04673b955fae89cc18ddb6b906a9b9e09603c603961cf369f44ec",
+    "nearest_samples.csv": "0bfe0e7f839510a6501a009965e6afd7c17a08ca5fea94578029e42364ab023f",
+    "sample_totals.csv": "a4f08ca4bab32636577aa85a9bb1add28faca939d086902883e25ce44f17926f",
+    "donor_counts.csv": "c890158b0d5208956b2a165c95ebbe83192fd815a6db1b91c3724d84aa7a28a9",
+    "atlas_info.csv": "fb3abdd22c35e1c8054462a0b4cf25e8082318eff9f97898681c069d4ad7b02c"
+  }
+}

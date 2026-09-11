@@ -1,0 +1,13 @@
+coordinate_set,filtering,matching_method,tolerance_mm,donor_id,well_id,roi_id,sample_structure,mni_x,mni_y,mni_z
+original_mni,unconstrained,abagen_voxel_atlas,2,H0351.2001,510,2,HCd,-13.0,16.8,11.8
+original_mni,hemisphere_and_structure,abagen_voxel_atlas,2,H0351.2001,510,2,HCd,-13.0,16.8,11.8
+original_mni,unconstrained,exact_euclidean_sphere,not_applicable,H0351.1009,11333,2,HCd,-12.0,17.0,9.0
+original_mni,unconstrained,abagen_voxel_atlas,2,H0351.1009,11278,2,HCd,-13.0,17.0,9.0
+original_mni,unconstrained,abagen_voxel_atlas,2,H0351.1009,11333,2,HCd,-12.0,17.0,9.0
+original_mni,hemisphere_and_structure,exact_euclidean_sphere,not_applicable,H0351.1009,11333,2,HCd,-12.0,17.0,9.0
+original_mni,hemisphere_and_structure,abagen_voxel_atlas,2,H0351.1009,11278,2,HCd,-13.0,17.0,9.0
+original_mni,hemisphere_and_structure,abagen_voxel_atlas,2,H0351.1009,11333,2,HCd,-12.0,17.0,9.0
+corrected_mni,unconstrained,abagen_voxel_atlas,2,H0351.1009,11333,2,HCd,-11.9635382660374,13.8871761586917,11.557100790169196
+corrected_mni,hemisphere_and_structure,abagen_voxel_atlas,2,H0351.1009,11333,2,HCd,-11.9635382660374,13.8871761586917,11.557100790169196
+original_mni,unconstrained,abagen_voxel_atlas,2,H0351.1012,126432214,2,HCd,-10.0,14.0,9.0
+original_mni,hemisphere_and_structure,abagen_voxel_atlas,2,H0351.1012,126432214,2,HCd,-10.0,14.0,9.0

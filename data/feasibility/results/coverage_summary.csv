@@ -1,0 +1,13 @@
+coordinate_set,filtering,matching_method,tolerance_mm,n_DLPFC_L,n_Caudate_L,n_Caudate_R,n_paired_donors
+original_mni,unconstrained,exact_euclidean_sphere,not_applicable,0,1,0,0
+original_mni,unconstrained,abagen_voxel_atlas,0,0,0,0,0
+original_mni,unconstrained,abagen_voxel_atlas,2,0,4,0,0
+original_mni,hemisphere_and_structure,exact_euclidean_sphere,not_applicable,0,1,0,0
+original_mni,hemisphere_and_structure,abagen_voxel_atlas,0,0,0,0,0
+original_mni,hemisphere_and_structure,abagen_voxel_atlas,2,0,4,0,0
+corrected_mni,unconstrained,exact_euclidean_sphere,not_applicable,0,0,0,0
+corrected_mni,unconstrained,abagen_voxel_atlas,0,0,0,0,0
+corrected_mni,unconstrained,abagen_voxel_atlas,2,0,1,0,0
+corrected_mni,hemisphere_and_structure,exact_euclidean_sphere,not_applicable,0,0,0,0
+corrected_mni,hemisphere_and_structure,abagen_voxel_atlas,0,0,0,0,0
+corrected_mni,hemisphere_and_structure,abagen_voxel_atlas,2,0,1,0,0
