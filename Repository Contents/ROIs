@@ -1,5 +1,1 @@
-DLPFC coordinates: MNI space, 2mm spherical ROI
-
-Caudate coordinates: MNI space, 2mm spherical ROI
-
-All ROIs were derived from task-based fMRI meta-analysis of trained simultaneous interpreters.
+The author-reported seeds are recorded in config/roi_seeds_unverified.csv and require provenance verification. They were not established as a meta-analysis of trained interpreters. Read docs/extraction.md before changing seeds or matching parameters. No coordinate substitution has been made.

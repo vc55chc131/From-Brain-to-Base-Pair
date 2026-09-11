@@ -1,11 +1,1 @@
-Main packages include:
-
-abagen
-
-nilearn
-
-pandas
-
-matplotlib
-
-gprofiler-official
+The supported analysis environment is specified in requirements.txt. Optional AHBA extraction uses requirements-ahba.txt. Each executed run records package versions. Legacy dependency lists do not define the new workflow.

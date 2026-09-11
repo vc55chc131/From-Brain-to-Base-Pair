@@ -1,1 +1,1 @@
-python source_code/DLPFC_vs_Caudate_Zscore.py
+See the complete command in README.md. The real script is source_code/DLPFC_vs_Caudate_Zscore.py and requires --expression, --metadata, --output, and --normalization-description. Optional --heatmap and --enrich generate outputs from an actual run.

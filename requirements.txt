@@ -1,0 +1,8 @@
+# New processed-input implementation. Python 3.10+ syntax and dependency ranges.
+# Tested with Python 3.12.14: numpy2.3.5/pandas2.2.3/scipy1.17.0/matplotlib3.10.8.
+# Actual package versions are saved per run in run_manifest.json.
+# These dependencies do not document the unavailable original manuscript run.
+numpy>=1.26,<3
+pandas>=2.2,<3
+scipy>=1.11,<2
+matplotlib>=3.8,<4

@@ -1,1 +1,3 @@
-pip install -r requirements.txt
+python -m pip install -r requirements.txt
+
+Use requirements-ahba.txt in a separate environment for optional extraction.
