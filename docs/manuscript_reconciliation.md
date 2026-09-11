@@ -12,7 +12,7 @@ Updated 11 September 2026. The clean manuscript is now a spatial methodology and
 | Duplicate figure and unsupported PCA, alleninf or semantic validation | Removed. The manuscript figure and tables now derive from recorded coverage outputs. |
 | Contradictory heatmap labels, values and colors; nine-versus-ten gene table | Heatmap and unverified selected-gene estimates removed; no gene identities or values guessed. |
 | Overstatement of all-data and FAIR availability | Availability statement identifies the completed audit inputs/outputs and distinguishes the unexecuted expression workflow. |
-| Authorship, funding, competing interests and institutional ethics determinations | No facts invented. Manuscript states only the factual use of public postmortem metadata and absence of new recruitment or tissue collection. Author-specific submission declarations still require author attestation. |
+| Authorship, funding, competing interests and institutional ethics determinations | The author confirmed no funding and no competing interests on 11 September 2026; both declarations are included in the clean manuscript. The ethics statement reports public postmortem metadata use and no new recruitment or tissue collection. No institutional approval number or exemption determination is invented. |
 
 ## Scientific boundary
 
