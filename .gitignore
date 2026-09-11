@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.py[cod]
+data/raw/
+data/processed/
+outputs/
+*.log
+.DS_Store
+data/ahba_cache/
+.venv-ahba/

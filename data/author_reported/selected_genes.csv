@@ -1,0 +1,10 @@
+source_label,gene_symbol,reported_delta_z
+Gene_32,GRIN2B,+1.25
+Gene_4,SLC1A2,+1.08
+Gene_21,CAMK2A,+1.13
+Gene_7,BDNF,+0.92
+Gene_1,DRD1,+0.85
+Gene_35,GRIA1,+0.79
+Gene_48,SLC6A1,+0.76
+Gene_3,FOXP2,+0.74
+Gene_10,COMT,+0.67

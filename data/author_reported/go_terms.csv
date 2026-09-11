@@ -1,0 +1,21 @@
+roi,reported_term,reported_category,reported_adjusted_p,reported_gene_count
+DLPFC,Positive regulation of synaptic plasticity,Biological Process,1.2 × 10⁻⁶,28
+DLPFC,Glutamate receptor activity,Molecular Function,3.4 × 10⁻⁵,22
+DLPFC,RNA polymerase II promoter regulation,Biological Process,4.6 × 10⁻⁵,18
+DLPFC,Calcium ion transmembrane transport,Biological Process,1.1 × 10⁻⁴,15
+DLPFC,Transcription factor activity,Molecular Function,2.3 × 10⁻⁴,20
+DLPFC,Mitochondrial respiratory chain complex,Cellular Component,5.0 × 10⁻⁴,17
+DLPFC,Dendritic spine development,Biological Process,7.8 × 10⁻⁴,12
+DLPFC,Synaptic vesicle cycle,Biological Process,1.2 × 10⁻³,25
+DLPFC,Chromatin binding,Molecular Function,2.5 × 10⁻³,14
+DLPFC,Long-term potentiation,Biological Process,4.3 × 10⁻³,16
+Caudate,Dopaminergic synaptic transmission,Biological Process,9.0 × 10⁻⁷,30
+Caudate,Response to reward stimulus,Biological Process,2.8 × 10⁻⁵,24
+Caudate,G-protein coupled receptor activity,Molecular Function,4.5 × 10⁻⁵,21
+Caudate,Habit formation,Biological Process,8.1 × 10⁻⁵,18
+Caudate,Dopamine biosynthetic process,Biological Process,1.3 × 10⁻⁴,14
+Caudate,Presynaptic membrane,Cellular Component,2.2 × 10⁻⁴,20
+Caudate,Inhibitory synaptic transmission,Biological Process,6.0 × 10⁻⁴,19
+Caudate,Monoamine transport,Molecular Function,9.5 × 10⁻⁴,16
+Caudate,Basal ganglia development,Biological Process,1.1 × 10⁻³,13
+Caudate,Neurotransmitter reuptake,Biological Process,2.4 × 10⁻³,22

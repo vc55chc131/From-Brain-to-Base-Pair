@@ -1,8 +1,1 @@
-This repository complies with FAIR data principles:
-Findability, Accessibility, Interoperability, and Reusability.
-
-All code is version-controlled and annotated.
-
-All data is either open-access or anonymized.
-
-Detailed documentation ensures full workflow transparency.
+Public access to this repository is established. Complete reproduction of the original findings and full compliance with FAIR principles have not been established. The new workflow and the precise remaining evidence gaps are documented in docs/reproducibility_status.md.

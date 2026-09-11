@@ -1,5 +1,1 @@
-gene_expression_matrix.csv: z-score-normalized expression values across ROIs.
-
-heatmap_top_genes.png: Top 50 differentiating genes visualized by region.
-
-enrichment_bubble_plot.png: Functional pathway enrichment visualization via GO terms.
+Actual runs generate statistics, donor coverage and provenance files as described in README.md. No original full-run output is currently available. Table transcriptions under data/author_reported/ are labeled as such. A listed output filename does not establish that the file was generated.

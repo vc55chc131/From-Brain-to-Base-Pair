@@ -1,0 +1,10 @@
+{
+  "source_url": "https://api.brain-map.org/api/v2/data/query.json?criteria=model::Donor,rma::criteria,[id$in9861,10021,12876,15496,14380,15697],rma::include,age",
+  "accessed_utc": "2026-09-11T07:37:42.666069+00:00",
+  "response_sha256": "c60a4be021e577db2ec7b528716d99c8d221444d26d2728e8268a2e079415889",
+  "notes": [
+    "Current Allen API donor metadata; these are whole-donor demographic records, not ROI sample counts.",
+    "No cause-of-death field was returned and none is inferred.",
+    "PMI for H0351.1009 is26h and H0351.1012 is17h in this response; the abagen packaged donor_info.csv lists25.5h and17.5h respectively. Values here follow the downloaded Allen API response."
+  ]
+}

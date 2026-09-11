@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "Please cite the atlas and method papers in README.md together with the exact repository commit used. This citation describes software, not a published research article."
+type: software
+title: "From Brain to Base Pair reproducibility workflow"
+authors:
+  - family-names: Chang
+    given-names: Vincent Chieh-Ying
+repository-code: "https://github.com/vc55chc131/From-Brain-to-Base-Pair"
+license: MIT

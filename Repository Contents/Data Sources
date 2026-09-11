@@ -1,3 +1,1 @@
-fMRI Activation Coordinates: Hervais-Adelman et al. (2015)
-
-Transcriptomic Data: Allen Human Brain Atlas (https://human.brain-map.org)
+Original transcriptomic source: Allen Human Brain Atlas, https://human.brain-map.org/. Verified donor records are in data/reference/. Supplied author-reported result table transcriptions are in data/author_reported/ and are not independently reproduced outputs. See docs/manuscript_reconciliation.md for unresolved imaging coordinate provenance.

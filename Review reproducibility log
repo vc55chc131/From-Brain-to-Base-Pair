@@ -1,1 +1,1 @@
-open "Reproducibility and FAIR Compliance/analysis_steps.md"
+See docs/reproducibility_status.md for checks actually performed. Each real execution writes its own manifest. Original executed study logs remain unavailable; no historical analysis log has been invented.
